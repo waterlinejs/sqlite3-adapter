@@ -1,0 +1,61 @@
+{
+  "name": "waterline-sqlite3",
+  "description": "Waterline Adapter for SQLite3",
+  "version": "0.12.0-alpha1",
+  "author": "Travis Webb <tjwebb@balderdash.io>",
+  "url": "http://github.com/waterlinejs/sqlite3-adapter",
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "node orm",
+    "orm",
+    "waterline",
+    "waterlinejs",
+    "driver",
+    "sails",
+    "sailsjs",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/waterlinejs/sqlite3-adapter.git"
+  },
+  "dependencies": {
+    "knex": "^0.8.6",
+    "lodash": "^3.10.0",
+    "sqlite3": "^3.0.10",
+    "waterline-errors": "^0.10.1",
+    "waterline-sequel": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "mocha": "latest",
+    "waterline-adapter-tests": "balderdashy/waterline-adapter-tests"
+  },
+  "bundledDependencies": [
+    "knex",
+    "lodash",
+    "waterline-sequel",
+    "sqlite3"
+  ],
+  "scripts": {
+    "test": "gulp && rm waterlinedb.sqlite ; NODE_ENV=test node test/integration/runner.js",
+    "prepublish": "gulp"
+  },
+  "main": "dist/adapter",
+  "license": "MIT",
+  "bugs": "https://github.com/waterlinejs/sqlite3-adapter/issues",
+  "waterlineAdapter": {
+    "waterlineVersion": ">0.10.0",
+    "interfaces": [
+      "semantic",
+      "queryable"
+    ],
+    "features": [
+      "unique",
+      "autoIncrement"
+    ]
+  }
+}
