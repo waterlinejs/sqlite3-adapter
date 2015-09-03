@@ -50,12 +50,10 @@
   "waterlineAdapter": {
     "waterlineVersion": ">0.10.0",
     "interfaces": [
-      "semantic",
-      "queryable"
+      "semantic"
     ],
     "features": [
-      "unique",
-      "autoIncrement"
+      "unique"
     ]
   }
 }
