@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - '0.12'
+
+sudo: false
+
+email:
+  notifications: false
+
+deploy:
+  provider: npm
+  email: waterlinejs@balderdash.io
+  api_key:
+    secure: FzB9VNOz5PshMdU+Yk2w5j79pOcgTdlWVVOntYIMGYOeyPSDVeywu6adT3CWnHYiYnNkqD5DOlxKwTUY1mxx0MqDfdwSnuVtRRnG/q6CdxuYh8NUsybCi/erc3p0N373Y9FxMHLMqmVtbRucHdiWhhPM54CdSMZTu+AOBarDn9/ioPIR0WxdSFtXiywteTTRgc2JKOUAfLrQql48pVaryquidOb0wYvjvV17/I/bV2rPSPTnHde/l+JbmDpxiej15a5du5cpxcI6eljr9XkytE2kB9cyWX8bq3RWOX1/uPdzhNSkHEyWV18kzKNUAKqoPVZhb9+xMotkBwaGCQ/82JqRjC5gJGWEOElSbFnG+nLGGAKel4/c11ei4wKCilADRbDWcxoulm5Dki+P3g8aSZ20FI+dMKuSULpuUj42ZiTou8U3Xq9mIwYPRg64RWAkyGVDfnaSmVBrW4KY4aZwykq8nzeMwVw6CIMsnTqpEvRUEqUhIIHw4UkBqw0nOeU2Ah5cOQlXUHCmeylwNwVd9Wyk+v1NiKHNykzlJeuCOgq6GTbcIksmqcgmBBYm9EIE5x9e4V84Ad8NKlKva7IEqTb4SaJsObQjmw2KvBm/V3bbwG5vmijCogVFHgk3iOK3prbGz4l+zzeIFzH8uwrFURIgB4ZWmyXnIokt9gHIMdc=
+  on:
+    tags: true
+    repo: waterlinejs/sqlite3-adapter
+    all_branches: true
