@@ -60,10 +60,6 @@
       "unique"
     ]
   },
-  "eslintConfig": {
-    "node": true,
-    "es6": true
-  },
   "engines": {
     "node": ">= 0.12.0"
   }
