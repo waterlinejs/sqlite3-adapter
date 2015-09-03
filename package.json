@@ -50,7 +50,8 @@
   "waterlineAdapter": {
     "waterlineVersion": ">0.10.0",
     "interfaces": [
-      "semantic"
+      "semantic",
+      "sql"
     ],
     "features": [
       "unique"
