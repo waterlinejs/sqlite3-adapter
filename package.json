@@ -41,6 +41,8 @@
     "lodash",
     "moment",
     "sqlite3",
+    "waterline-cursor",
+    "waterline-errors",
     "waterline-sequel"
   ],
   "scripts": {
