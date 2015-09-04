@@ -25,6 +25,7 @@
     "lodash": "^3.10.0",
     "moment": "^2.10.6",
     "sqlite3": "^3.0.10",
+    "waterline-cursor": "0.0.6",
     "waterline-errors": "^0.10.1",
     "waterline-sequel": "^0.5.0"
   },
@@ -54,7 +55,8 @@
     "interfaces": [
       "semantic",
       "queryable",
-      "sql"
+      "sql",
+      "associations"
     ],
     "features": [
       "unique"
