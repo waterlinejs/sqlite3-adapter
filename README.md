@@ -6,18 +6,18 @@
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
 A [Waterline](https://github.com/balderdashy/waterline) adapter for
-[SQLite3](https://www.sqlite.org/).  Waterline is the ORM layer used by [Sails](http://sailsjs.org)
+[SQLite3](https://www.sqlite.org/).  Waterline is the ORM layer used by [**Sails**](http://sailsjs.org)
 and [Treeline](http://treeline.io).
 
 ## Features
 - Fully compatible with SQLite3
+- Supports Waterline Associations
 - Uses [knex.js](http://knexjs.org/) for query building
 - Written in ES6
 
 ## Compatibility
 - [Waterline](http://sailsjs.org/) v0.10 and later
-- SQLite 3.8 and later
-- Works with Sails v0.12 and later
+- Works with Sails v0.11 and later
 
 ## Install
 
@@ -32,7 +32,20 @@ $ npm install waterline-sqlite3 --save
 ```js
 module.exports.connections = {
   sqlitedb: {
-    filename: './waterlinedb.sqlite',
+    /**
+     * Database instance type. Specify whether to store the database on disk
+     * or in memory.
+     */
+    type: 'disk', // or 'memory'
+
+    /**
+     * Location of file if type='disk'
+     */
+    filename: './tmp/db.sqlite',
+
+    /**
+     * Set to true to output SQL queries
+     */
     debug: false
   }
 }
