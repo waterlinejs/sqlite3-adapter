@@ -46,7 +46,7 @@
     "waterline-sequel"
   ],
   "scripts": {
-    "test": "gulp && rm waterlinedb.sqlite ; NODE_ENV=test node test/integration/runner.js",
+    "test": "gulp && rm -rf .tmp/ ; NODE_ENV=test node test/integration/runner.js",
     "prepublish": "gulp"
   },
   "main": "dist/adapter",
@@ -55,13 +55,16 @@
   "waterlineAdapter": {
     "waterlineVersion": ">0.10.0",
     "interfaces": [
-      "semantic",
+      "associations",
+      "migratable",
       "queryable",
-      "sql",
-      "associations"
+      "semantic",
+      "sql"
     ],
     "features": [
-      "unique"
+      "unique",
+      "autoIncrement",
+      "crossAdapter"
     ]
   },
   "engines": {

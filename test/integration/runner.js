@@ -45,6 +45,6 @@ new TestRunner({
 
   adapter: Adapter,
   config: {
-    type: 'memory'
+    type: 'disk'
   }
 });
