@@ -1,4 +1,4 @@
-# <img src="http://i.imgur.com/tMBZE5W.png" height='30px'> SQLite3 Waterline Adapter
+# <img src="http://i.imgur.com/tMBZE5W.png" height='30px'> Waterline SQLite3 Adapter
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
@@ -56,6 +56,9 @@ MIT
 
 ## Maintained By
 ##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.co)
+
+<img src='http://i.imgur.com/NsAdNdJ.png'>
+
 
 [npm-image]: https://img.shields.io/npm/v/waterline-sqlite3.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/waterline-sqlite3
