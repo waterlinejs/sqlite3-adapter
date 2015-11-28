@@ -36,7 +36,7 @@ module.exports.connections = {
      * Database instance type. Specify whether to store the database on disk
      * or in memory.
      */
-    type: 'disk', // or 'memory'
+    adapter: 'waterline-sqlite3', // or 'memory'
 
     /**
      * Location of file if type='disk'
