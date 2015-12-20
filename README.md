@@ -55,7 +55,7 @@ module.exports.connections = {
 MIT
 
 ## Maintained By
-##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.co)
+##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.io)
 
 <img src='http://i.imgur.com/NsAdNdJ.png'>
 
