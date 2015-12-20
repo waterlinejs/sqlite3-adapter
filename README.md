@@ -16,8 +16,8 @@ and [Treeline](http://treeline.io).
 - Written in ES6
 
 ## Compatibility
-- [Waterline](http://sailsjs.org/) v0.10 and later
-- Works with Sails v0.11 and later
+- [Waterline](http://waterline.js.org) v0.10 and newer
+- Works with [Trails](http://trailsjs.io) v1.0 and newer
 
 ## Install
 
