@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - '0.12'
-
-sudo: false
+  - '4'
+  - 'stable'
 
 email:
   notifications: false
