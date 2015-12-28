@@ -1,4 +1,4 @@
-# <img src="http://i.imgur.com/tMBZE5W.png" height='30px'> Waterline SQLite3 Adapter
+# Waterline SQLite3 Adapter
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
@@ -17,7 +17,8 @@ and [Treeline](http://treeline.io).
 
 ## Compatibility
 - [Waterline](http://waterline.js.org) v0.10 and newer
-- Works with [Trails](http://trailsjs.io) v1.0 and newer
+- [Trails](http://trailsjs.io) v1.0 and newer
+- Node 4 or newer
 
 ## Install
 
