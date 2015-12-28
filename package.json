@@ -62,8 +62,9 @@
       "sql"
     ],
     "features": [
-      "unique",
-      "crossAdapter"
+      "autoIncrement",
+      "crossAdapter",
+      "unique"
     ]
   },
   "engines": {
