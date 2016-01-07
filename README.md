@@ -5,9 +5,8 @@
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
-A [Waterline](https://github.com/balderdashy/waterline) adapter for
-[SQLite3](https://www.sqlite.org/).  Waterline is the ORM layer used by [**Sails**](http://sailsjs.org)
-and [Treeline](http://treeline.io).
+A [Waterline](https://github.com/waterlinejs) adapter for
+[SQLite3](https://www.sqlite.org/).
 
 ## Features
 - Fully compatible with SQLite3
