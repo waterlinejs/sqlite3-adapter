@@ -55,9 +55,7 @@ module.exports.connections = {
 MIT
 
 ## Maintained By
-##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.io)
-
-<img src='http://i.imgur.com/NsAdNdJ.png'>
+[<img src='http://i.imgur.com/Y03Jgmf.png' height='64px'>](http://langa.io)
 
 
 [npm-image]: https://img.shields.io/npm/v/waterline-sqlite3.svg?style=flat-square
