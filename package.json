@@ -34,7 +34,7 @@
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.0",
     "mocha": "latest",
-    "waterline-adapter-tests": "waterlinejs/waterline-adapter-tests"
+    "waterline-adapter-tests": "^0.12.0"
   },
   "bundledDependencies": [
     "knex",
