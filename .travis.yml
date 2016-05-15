@@ -1,7 +1,23 @@
 language: node_js
 node_js:
-  - '4'
-  - 'stable'
+  - 4
+  - 5
+  - 6
+
+# install gcc 4.8 on linux using apt
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-4.8
+      - g++-4.8
+
+env:
+  - CXX=g++-4.8
+
+compiler:
+- gcc
 
 email:
   notifications: false
@@ -15,3 +31,4 @@ deploy:
     tags: true
     repo: waterlinejs/sqlite3-adapter
     all_branches: true
+    node: 6

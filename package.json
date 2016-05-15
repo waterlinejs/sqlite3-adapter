@@ -1,19 +1,15 @@
 {
   "name": "waterline-sqlite3",
   "description": "Waterline Adapter for SQLite3",
-  "version": "1.0.1",
-  "author": "Travis Webb <tjwebb@balderdash.io>",
+  "version": "1.0.3",
+  "author": "Travis Webb <tjwebb@langa.io>",
   "url": "http://github.com/waterlinejs/sqlite3-adapter",
   "keywords": [
     "sqlite",
     "sqlite3",
     "node orm",
     "orm",
-    "waterline",
-    "waterlinejs",
     "driver",
-    "sails",
-    "sailsjs",
     "es6"
   ],
   "repository": {
@@ -30,9 +26,9 @@
     "waterline-sequel": "^0.5.0"
   },
   "devDependencies": {
-    "babel": "^5.6.23",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.0",
+    "babel": "5.8.38",
+    "gulp": "3.9.1",
+    "gulp-babel": "5.2.0",
     "mocha": "latest",
     "waterline-adapter-tests": "^0.12.0"
   },
@@ -40,7 +36,6 @@
     "knex",
     "lodash",
     "moment",
-    "sqlite3",
     "waterline-cursor",
     "waterline-errors",
     "waterline-sequel"
@@ -68,6 +63,6 @@
     ]
   },
   "engines": {
-    "node": ">= 0.12.0"
+    "node": ">= 4.0.0"
   }
 }
