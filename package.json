@@ -42,7 +42,8 @@
   ],
   "scripts": {
     "test": "gulp && rm -rf .tmp/ ; NODE_ENV=test node test/integration/runner.js",
-    "prepublish": "gulp"
+    "prepublish": "gulp",
+    "postinstall": "npm run prepublish"
   },
   "main": "dist/adapter",
   "license": "MIT",
