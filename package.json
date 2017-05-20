@@ -19,16 +19,16 @@
   "dependencies": {
     "knex": "^0.9",
     "lodash": "^3.10.0",
-    "moment": "^2.10.6",
+    "moment": "^2.18.1",
     "sqlite3": "^3.1.4",
     "waterline-cursor": "0.0.6",
     "waterline-errors": "^0.10.1",
-    "waterline-sequel": "^0.5.0"
+    "waterline-sequel": "^0.5.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "5.2.0"
   },
   "devDependencies": {
     "babel": "5.8.38",
-    "gulp": "3.9.1",
-    "gulp-babel": "5.2.0",
     "mocha": "latest",
     "waterline-adapter-tests": "^0.12.0"
   },
