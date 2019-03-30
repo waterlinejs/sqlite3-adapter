@@ -15,7 +15,7 @@ A [Waterline](https://github.com/waterlinejs) adapter for
 - Written in ES6
 
 ## Compatibility
-- [Waterline](http://waterline.js.org) v0.10 and newer
+- [Waterline](http://waterlinejs.org) v0.10 and newer
 - [Trails](http://trailsjs.io) v1.0 and newer
 - Node 4 or newer
 
